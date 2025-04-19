@@ -20,6 +20,7 @@ This Python project processes and analyzes a list of transactions. It extracts t
    python transaction_analyzer.py
 
 #SAMPLE INPUT:-
+
 transactions = [
     "1, 200, 2024-11-17 09:45:23",
     "2, -50, 2024-11-17 09:47:00",
@@ -29,6 +30,7 @@ transactions = [
 ]
 
 #OUTPUT EXAMPLE:-
+
 max amount in the transaction is: 200 
 and the minimum amount that is in transaction is: -50
 ['2024-11-17 09:45:23', '2024-11-17 09:47:00', '2024-11-17 11:00:00', '2024-11-18 10:00:00', '2024-11-19 09:00:00']
