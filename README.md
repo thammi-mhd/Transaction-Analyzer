@@ -65,15 +65,3 @@ The program then calculates the highest and lowest transaction amounts.
 Finally, the transactions are sorted by their timestamps to display them in the correct order.
 
 Feel free to tweak the code, experiment with different inputs, or add new features to the script as you continue learning Python. Enjoy building!
-
-markdown
-Copy
-Edit
-
-### What’s different in this version:
-```
-1. **Friendly tone**: The language is more conversational and welcoming.
-2. **Shorter sections**: Each section is concise and to the point.
-3. **Clear explanations**: The description and usage are more approachable, explaining technical terms in simple language.
-4. **Inviting for modifications**: The last part encourages users to make changes and learn from the project.
-```
