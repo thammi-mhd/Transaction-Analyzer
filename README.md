@@ -1,32 +1,44 @@
-# Transaction-Analyzer
+# Transaction Analyzer
 
 ## About
 
-Welcome to the **Transaction Analyzer** project! This simple Python script is designed to analyze customer transaction data. It takes a list of transactions, extracts key details like transaction ID, amount, and timestamp, and then provides some useful insights:
+**Transaction Analyzer** is a simple Python project that analyzes customer transaction data. The script processes a list of transaction records, extracts key details such as transaction ID, amount, and timestamp, and then generates useful insights.
 
-- The highest and lowest transaction amounts.
-- A sorted list of transactions based on the timestamp, so you can easily see when they occurred.
+This project was built to practice core Python concepts like string manipulation, loops, sorting, and basic data analysis.
 
-This is a great project to practice basic Python concepts like string manipulation, loops, and sorting.
+---
 
-## 🧰 Features
-- Breaks down each transaction into its components: Transaction ID, Amount, and Timestamp.
-- Calculates and displays the highest and lowest transaction amounts.
-- Sorts transactions by timestamp so you can see the order of events.
-- Uses simple Python techniques to process data and display the results.
+## Features
 
-## ⚙️ Technologies Used
-- **Python 3.x** – The main programming language used for this project.
-- **`datetime` module** – Used for handling and formatting timestamps.
+* Extracts transaction ID, amount, and timestamp from raw transaction strings
+* Calculates and displays the highest and lowest transaction amounts
+* Sorts transactions based on timestamp for chronological analysis
+* Uses basic Python logic without external libraries
 
-## 🚀 How to Run
-1. Clone or download the repo to your local machine.
-2. Make sure you have Python 3.x installed (you can download it from [python.org](https://www.python.org/)).
-3. Open a terminal or command prompt, navigate to the project folder, and run:
-   ```bash
-   python transaction_analyzer.py
-📊 Sample Input
-Here’s an example of how the transaction data looks:
+---
+
+## Technologies Used
+
+* Python 3.x
+* `datetime` module for parsing and sorting timestamps
+
+---
+
+## How to Run
+
+1. Clone or download the repository
+2. Make sure Python 3.x is installed
+3. Open a terminal or command prompt
+4. Navigate to the project folder and run:
+
+```bash
+python transaction_analyzer.py
+```
+
+---
+
+## Sample Input
+
 ```python
 transactions = [
     "1, 200, 2024-11-17 09:45:23",
@@ -37,9 +49,11 @@ transactions = [
 ]
 ```
 
-🖥️ Sample Output
-Once you run the script, you’ll see something like this:
-```python
+---
+
+## Sample Output
+
+```text
 Transaction Summary:
 ===================
 Highest Transaction: 200.0
@@ -54,14 +68,21 @@ Transactions (Sorted by Timestamp):
 2024-11-19 09:00:00
 ```
 
+---
 
-🤔 How It Works
-The script takes a list of transaction strings, each containing a transaction ID, amount, and timestamp.
+## How It Works
 
-It splits these strings into their individual components.
+* The script reads a list of transaction strings
+* Each transaction is split into transaction ID, amount, and timestamp
+* The program identifies the highest and lowest transaction values
+* Transactions are sorted using timestamps to display them in order
 
-The program then calculates the highest and lowest transaction amounts.
+---
 
-Finally, the transactions are sorted by their timestamps to display them in the correct order.
+## Notes
 
-Feel free to tweak the code, experiment with different inputs, or add new features to the script as you continue learning Python. Enjoy building!
+This project is intended for learning and practice. You can extend it by:
+
+* Adding transaction summaries per customer
+* Handling invalid or malformed data
+* Exporting results to a file
